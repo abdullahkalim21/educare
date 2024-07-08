@@ -41,7 +41,7 @@
                 <a href="#about">About</a>
             </div>
             <div class="dropdown">
-                <div>Courses</div>
+                <div>Courses <span><i class="fa-solid fa-chevron-down"></i></span></div>
                 <div class="dropdown-content">
                     <div>Web Development <span><i class="fa-solid fa-chevron-right"></i></span></div>
                     <div>Data Science <span><i class="fa-solid fa-chevron-right"></i></span></div>
@@ -49,7 +49,7 @@
                 </div>
             </div>
             <div class="dropdown">
-                <div>Blog</div>
+                <div>Blog <span><i class="fa-solid fa-chevron-down"></i></span></div>
                 <div class="dropdown-content">
                     <div>Tech News <span><i class="fa-solid fa-chevron-right"></i></span></div>
                     <div>Programming Tutorials <span><i class="fa-solid fa-chevron-right"></i></span></div>
@@ -65,45 +65,51 @@
     <section class="hero">
         <div class="hero-text">
             <h1>Start Learning with us now</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa laboriosam voluptates sed beatae?</p>
-            <button>Start Learning</button>
+            <p>Unlock a world of knowledge and opportunities with our vibrant education community! Whether you're looking to enhance your skills, explore new subjects, or connect with like-minded learners, we have something for everyone.</p>
+            <a href="#">Start Learning</a>
         </div>
-        <div>
-            <img src="./Images/hero-image.png" alt="Educare">
+        <div class="image">
+            <img src="./Images/hero-image.png" alt="Educare" class="hero-img">
         </div>
     </section>
     <section class="section-1">
-        <div>
+        <div class="image">
             <img src="./Images/image 3.png" alt="Educare">
         </div>
         <div class="sec-text">
-            <p>Welcome to the online centers</p>
+            <h2>Welcome to the online centers</h2>
             <ul>
-                <li>Start learning from your experience</li>
-                <li>Enhance your skills with us now</li>
-                <li>Do your favorite course</li>
+                <li>Learn from your Experiences</li>
+                <li>Enhance your Skills today</li>
+                <li>Pursue Your Passion</li>
             </ul>
         </div>
     </section>
     <section class="section-2">
         <div class="sec-2-text">
-            <p>Start learning by creating free account and get register</p>
+            <p>Start learning by creating free account and get registered</p>
         </div>
-        <div>
+        <div class="image">
             <img src="./Images/image 1.png" alt="Educare">
         </div>
     </section>
     <section class="contact-sec">
-        <div class="input-sec">
-            <input placeholder="Your name" type="text" name="name" id="name">
-            <input placeholder="Your Email Address" type="email" name="email" id="email">
-            <button>Subscribe</button>
+        <div>
+            <h3>Newsletter</h3>
         </div>
+        <form class="input-sec"action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="apikey" value="f02dfe2b-58d2-4950-8013-d1b3d4377f1d">
+            <input placeholder="Full Name" type="text" name="name" id="name" required>
+            <input placeholder="Email Address" type="email" name="email" id="email" required>
+            <input type="hidden" name="redirect" value="">
+            <button>Subscribe</button>
+        </form>
     </section>
     <section class="section-3">
         <div class="sec-3-text">
             <h2>Start growing with our community</h2>
-            <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <p class="p1">Join a thriving community where growth and success are at the forefront. With us, you’ll find
+                the support, resources, and inspiration you need to reach your fullest potential.</p>
             <button>Join Community</button>
         </div>
         <div class="sec-3-img">
@@ -128,18 +134,18 @@
             <div class="social">
                 <p>Follow us</p>
                 <div>
-                    <i class='fa-brands fa-facebook'></i>
-                    <i class='fa-brands fa-instagram'></i>
-                    <i class="fa-brands fa-x-twitter"></i>
-                    <i class="fa-brands fa-linkedin"></i>
+                    <a href="#"><i class='fa-brands fa-facebook'></i></a>
+                    <a href="#"><i class='fa-brands fa-instagram'></i></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></i></a>
+                    <a href="#"><i class='fa-brands fa-linkedin'></i></a>
                 </div>
             </div>
             <div class="useful-links">
                 <p>Useful links</p>
                 <ul>
-                    <li>Our Projects</li>
-                    <li>FAQs</li>
-                    <li>News and Updates</li>
+                    <li><a href="#">Our Projects</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">News and Updates</a></li>
                 </ul>
             </div>
             <div class="contacts">
